@@ -65,11 +65,8 @@ module.exports = {
               pushOnCommit: true,
             },
           },
-        ],
-        sidebar: {
-          hidden: process.env.NODE_ENV === "production",
-        },
-      },
-    },
-  ],
+        ]
+      }
+    }
+  ]
 }
