@@ -1,6 +1,7 @@
 ---
 title: Test Blog Article 2
 date: '2020-04-03T17:48:27.695Z'
+author: Sabrina
 hero_image: ../images/Portes-du-soleil.jpg
 ---
 # Lorem ipsum dolor sit amet, 

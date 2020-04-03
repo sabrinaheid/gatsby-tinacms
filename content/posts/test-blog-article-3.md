@@ -1,6 +1,6 @@
 ---
 title: Test Blog Article 3
-date: 2020-06-18T00:00:00.000Z
+date: '2020-06-18T00:00:00.000Z'
 author: Sabrina
 hero_image: ../images/SevenBoutiquehotelAscona.jpg
 ---
