@@ -3,7 +3,7 @@ import { graphql, useStaticQuery } from "gatsby"
 export default function useBlogData() {
   const data = useStaticQuery(graphql`
     query getBlogData {
-      allMarkdownRemark {
+      allMarkdownRemark(sort: { order: DESC, fields: frontmatter___date }) {
         edges {
           node {
             id

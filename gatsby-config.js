@@ -1,9 +1,6 @@
 module.exports = {
   plugins: [
-    "gatsby-plugin-sass",
     "gatsby-transformer-remark",
-    "gatsby-plugin-react-helmet",
-    "gatsby-transformer-json",
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -26,17 +23,13 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-sharp",
-      options: {
-        defaultQuality: 75,
-      },
+      resolve: "gatsby-plugin-sharp"
     },
     `gatsby-transformer-sharp`,
     {
       resolve: "gatsby-transformer-remark",
       options: {
         plugins: [
-          "gatsby-remark-relative-images",
           "gatsby-remark-normalize-paths",
           {
             resolve: "gatsby-remark-images",
@@ -48,7 +41,6 @@ module.exports = {
         ],
       },
     },
-    "gatsby-tinacms-json",
     {
       resolve: "gatsby-plugin-tinacms",
       options: {
