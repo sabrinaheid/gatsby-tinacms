@@ -23,6 +23,8 @@
     "gatsby-transformer-remark": "^2.6.1",
     "gatsby-transformer-sharp": "^2.2.1",
     "react": "^16.8.6",
-    "tinacms": "^0.17.0"
+    "tinacms": "^0.17.0",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.4.1"
   }
 }
