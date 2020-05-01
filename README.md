@@ -1,2 +1,3 @@
-## TinaCMS & Gatsby
-Playground
+**Playground**
+
+Gatsby Static Site Generator & TinaCMS
